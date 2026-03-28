@@ -1,0 +1,50 @@
+# Environment
+.env
+.env.*
+*.env
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# API Keys (never commit these)
+secrets.toml
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ChromaDB local storage
+chroma/
+chroma_db/
+*.chroma
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
