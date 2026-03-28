@@ -396,9 +396,9 @@ def submission_instructions_node(state: AgentState) -> AgentState:
     """
     playbooks = load_playbooks()
     lang = state.get("language", "en")
-    channel = state.get("chosen_channel", "tzcert")
-    all_channels = state.get("recommended_channels", [channel])
-    tzcert_map = state.get("tzcert_fields", TZCERT_FIELD_MAP["unknown"])
+    channel = state.get("chosen_channel", "tzcert") or "tzcert"
+    all_channels = state.get("recommended_channels") or [channel]
+    tzcert_map = state.get("tzcert_fields") or TZCERT_FIELD_MAP["unknown"]
 
     if lang == "sw":
         instructions = f"""### 📤 Jinsi ya Kutuma Ripoti (Hatua kwa Hatua)
