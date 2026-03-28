@@ -479,7 +479,7 @@ def main():
                     severity_badge(result.get("incident_severity", "medium"), lang)
                 )
             with col3:
-                channels = result.get("recommended_channels", ["tzcert"])
+                channels = result.get("recommended_channels") or ["tzcert"]
                 st.metric(
                     t["channel_label"],
                     ", ".join(channels).upper()
