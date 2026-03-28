@@ -1,0 +1,192 @@
+{
+  "incident_types": [
+    {
+      "id": "full_device_compromise",
+      "category": "full_device_compromise",
+      "keywords_en": ["phone controlled", "phone hacked", "apps opening by themselves", "remote control", "RAT", "someone controlling my screen", "battery draining fast", "screen moving", "attacker has control"],
+      "keywords_sw": ["simu inaongea peke yake", "simu imedhibitiwa", "programu zinafunguka zenyewe", "mtu anadhibiti simu yangu", "simu imehackiwa kabisa", "betri inaisha haraka"],
+      "severity": "critical",
+      "technical_steps_en": [
+        "🚨 IMMEDIATELY turn on Airplane Mode (swipe down → tap Airplane Mode) — this cuts the attacker's connection NOW.",
+        "🔴 Power off your phone completely using the physical power button.",
+        "⚠️ Do NOT use this phone for passwords, banking, or sensitive messages until it is cleaned.",
+        "📱 Borrow a friend's or family member's phone or use a computer to continue.",
+        "🔐 From the safe device: Change your Google/Apple ID password FIRST, then email, then WhatsApp.",
+        "🔑 Enable 2-Factor Authentication (2FA) on all accounts from the safe device.",
+        "📞 Call your mobile carrier (Airtel: 0800 110 011 | Vodacom: 100 | Tigo: 0800 750 075) to check for SIM-swap.",
+        "🛡️ When you get back to the phone: Boot into Safe Mode (hold Power → long-press 'Power off' → tap Safe Mode).",
+        "🗑️ In Safe Mode: Go to Settings → Apps → uninstall any app you don't recognize.",
+        "🔄 Last resort: Factory Reset (Settings → General Management → Reset → Factory Data Reset). This erases everything — back up contacts/photos first if safe."
+      ],
+      "technical_steps_sw": [
+        "🚨 MARA MOJA washa Hali ya Ndege (Airplane Mode) — hii itakata muunganisho wa mshambuliaji SASA HIVI.",
+        "🔴 Zima simu yako kabisa ukitumia kitufe cha nguvu.",
+        "⚠️ USITUMIE simu hii kwa nywila, benki, au ujumbe muhimu mpaka itakapokuwa salama.",
+        "📱 Omba simu ya rafiki au mwanafamilia au tumia kompyuta kuendelea.",
+        "🔐 Kutoka kwenye kifaa salama: Badilisha nywila ya Google/Apple ID KWANZA, kisha barua pepe, kisha WhatsApp.",
+        "🔑 Washa Uthibitishaji wa Hatua 2 (2FA) kwenye akaunti zote kutoka kwenye kifaa salama.",
+        "📞 Piga simu mtoa huduma wako (Airtel: 0800 110 011 | Vodacom: 100 | Tigo: 0800 750 075) kuhusu SIM-swap.",
+        "🛡️ Ukirejesha simu: Ingia katika Hali Salama (shikilia Nguvu → shikilia 'Zima nguvu' → gusa Hali Salama).",
+        "🗑️ Katika Hali Salama: Nenda Mipangilio → Programu → Ondoa programu yoyote usiyoijua.",
+        "🔄 Suluhisho la mwisho: Rudisha Mipangilio ya Kiwanda (Mipangilio → Usimamizi Mkuu → Rudisha). Hii itafuta kila kitu — hifadhi mawasiliano/picha kwanza kama ni salama."
+      ],
+      "reporting_channels": ["tzcert", "police"],
+      "emotional_note_en": "Having your device taken over feels like a deep violation of your privacy and safety. What you're feeling — fear, anger, helplessness — is completely valid. You are taking strong action right now.",
+      "emotional_note_sw": "Kuwa na kifaa chako kilichodhibitiwa kunajihisi kama ukiukaji mkubwa wa faragha na usalama wako. Unachohisi — hofu, hasira, kutokuwa na nguvu — ni halali kabisa. Unachukua hatua madhubuti sasa hivi."
+    },
+    {
+      "id": "mobile_money_scam",
+      "category": "mobile_money_scam",
+      "keywords_en": ["M-Pesa scam", "Airtel Money fraud", "Tigo Pesa fraud", "voice call scam", "family emergency scam", "sent money by mistake", "lost money mobile", "fake agent"],
+      "keywords_sw": ["M-Pesa nimeibwa", "Airtel Money nimehadaiwa", "simu ya dharura bandia", "nimetumia pesa kwa bahati mbaya", "nimepoteza pesa simu", "wakala wa uongo"],
+      "severity": "high",
+      "technical_steps_en": [
+        "📞 Call M-Pesa immediately: *234# or 0800 724 000 (Safaricom) | Airtel: *100# or 0800 110 010 | Tigo: *150# — report the fraud and request a transaction reversal.",
+        "📋 Note down: The fraudster's phone number, exact amount, transaction ID (from SMS), and time of transaction.",
+        "🚫 Block the fraudster's number immediately from your phone.",
+        "📸 Screenshot all transaction SMS messages as evidence.",
+        "🔐 Change your mobile money PIN immediately from a safe state.",
+        "🏦 If money went to a bank account, contact the receiving bank's fraud line immediately.",
+        "📝 Save the customer care reference number you receive when reporting."
+      ],
+      "technical_steps_sw": [
+        "📞 Piga simu M-Pesa mara moja: *234# au 0800 724 000 (Safaricom) | Airtel: *100# au 0800 110 010 | Tigo: *150# — ripoti udanganyifu na omba kufuta muamala.",
+        "📋 Andika: Nambari ya simu ya mwizi, kiasi halisi, Kitambulisho cha muamala (kutoka SMS), na wakati wa muamala.",
+        "🚫 Zuia nambari ya mwizi mara moja kutoka kwenye simu yako.",
+        "📸 Piga picha za SMS zote za muamala kama ushahidi.",
+        "🔐 Badilisha PIN yako ya pesa za simu mara moja kutoka hali salama.",
+        "🏦 Kama pesa ilienda kwenye akaunti ya benki, wasiliana na mstari wa udanganyifu wa benki hiyo mara moja.",
+        "📝 Hifadhi nambari ya kumbukumbu ya huduma kwa wateja unaopokea unapowasiliana."
+      ],
+      "reporting_channels": ["mobile_money_provider", "police", "tzcert"],
+      "emotional_note_en": "Being scammed through mobile money is a violation that can feel deeply shameful — but you are not at fault. Scammers are sophisticated and target many people. You acted quickly and that matters.",
+      "emotional_note_sw": "Kudanganywa kupitia pesa za simu kunaweza kujihisi kama aibu — lakini si kosa lako. Walaghai wana ujanja na wanashambulia watu wengi. Ulichukua hatua haraka na hiyo ina maana."
+    },
+    {
+      "id": "account_takeover",
+      "category": "account_takeover",
+      "keywords_en": ["WhatsApp hacked", "Facebook taken over", "email compromised", "account taken over", "can't login", "someone logged in", "Instagram hacked", "social media hacked"],
+      "keywords_sw": ["WhatsApp imeibiwa", "Facebook imechukuliwa", "barua pepe imeathirika", "akaunti imechukuliwa", "siwezi kuingia", "mtu ameingia", "Instagram imehackiwa"],
+      "severity": "high",
+      "technical_steps_en": [
+        "🔐 Try to recover your account immediately using the platform's official recovery page.",
+        "📧 For WhatsApp: Reinstall the app → verify with your phone number → this will log out anyone else.",
+        "📧 For Google/Gmail: Go to accounts.google.com/recovery and follow the steps.",
+        "📘 For Facebook: Use facebook.com/hacked to report and recover.",
+        "🔑 Once recovered: IMMEDIATELY change your password to something strong and unique.",
+        "✅ Enable 2-Factor Authentication (2FA) right away.",
+        "📞 Check 'Active Sessions' or 'Logged-in Devices' and log out all unknown devices.",
+        "👥 Warn your contacts that your account was compromised — scammers may have messaged them.",
+        "📋 Screenshot any suspicious messages or activity as evidence."
+      ],
+      "technical_steps_sw": [
+        "🔐 Jaribu kurejesha akaunti yako mara moja ukitumia ukurasa rasmi wa kurejesha wa jukwaa.",
+        "📧 Kwa WhatsApp: Sakinisha upya programu → thibitisha na nambari yako ya simu → hii itamtoa mtu yeyote mwingine.",
+        "📧 Kwa Google/Gmail: Nenda accounts.google.com/recovery na ufuate hatua.",
+        "📘 Kwa Facebook: Tumia facebook.com/hacked kuripoti na kurejesha.",
+        "🔑 Ukiisha kurejesha: MARA MOJA badilisha nywila yako kuwa kitu chenye nguvu na cha kipekee.",
+        "✅ Washa Uthibitishaji wa Hatua 2 (2FA) mara moja.",
+        "📞 Angalia 'Vikao Amilifu' au 'Vifaa Vilivyoingia' na toka kwenye vifaa vyote visivyojulikana.",
+        "👥 Onya mawasiliano yako kwamba akaunti yako iliathirika — walaghai wanaweza kuwaandikia.",
+        "📋 Piga picha za ujumbe wowote wa kutia shaka au shughuli kama ushahidi."
+      ],
+      "reporting_channels": ["platform_report", "tzcert", "police"],
+      "emotional_note_en": "Having your account taken over can feel like losing a piece of your identity. The worry about what was said or done in your name is real and valid. You're doing the right thing by acting now.",
+      "emotional_note_sw": "Kuwa na akaunti yako iliyochukuliwa kunaweza kujihisi kama kupoteza sehemu ya utambulisho wako. Wasiwasi kuhusu kilichosemwa au kufanywa kwa jina lako ni wa kweli na halali. Unafanya jambo sahihi kwa kutenda sasa."
+    },
+    {
+      "id": "malware_infection",
+      "category": "malware_infection",
+      "keywords_en": ["malware", "virus", "ransomware", "device infected", "strange app", "phone acting strange", "suspicious software", "spyware", "adware", "popup ads"],
+      "keywords_sw": ["virusi", "programu ya kudhuru", "simu inatenda ajabu", "programu ya kutia shaka", "matangazo yanayoonekana", "ransomware", "msimbo hatari"],
+      "severity": "high",
+      "technical_steps_en": [
+        "✈️ Turn on Airplane Mode to prevent the malware from sending your data out.",
+        "🛡️ Boot into Safe Mode: Hold Power → long-press 'Power off' → tap 'Safe Mode'.",
+        "🔍 In Safe Mode: Go to Settings → Apps → look for apps you don't recognize or didn't install.",
+        "🗑️ Uninstall suspicious apps. If you can't uninstall, go to Settings → Accessibility → Installed services and disable anything suspicious.",
+        "🔒 Run Google Play Protect scan: Open Play Store → Menu → Play Protect → Scan.",
+        "🔐 Change all important passwords from a different, clean device.",
+        "🔄 If malware persists: Factory Reset is the safest option (Settings → General Management → Reset).",
+        "⬇️ After reset: Only reinstall apps from the official Google Play Store or Apple App Store.",
+        "🔑 Never install APK files from unknown sources."
+      ],
+      "technical_steps_sw": [
+        "✈️ Washa Hali ya Ndege kuzuia programu hasidi kutuma data yako.",
+        "🛡️ Ingia katika Hali Salama: Shikilia Nguvu → shikilia 'Zima nguvu' → gusa 'Hali Salama'.",
+        "🔍 Katika Hali Salama: Nenda Mipangilio → Programu → tafuta programu usizozijua au hukuzisakinisha.",
+        "🗑️ Ondoa programu za kutia shaka. Kama huwezi kuondoa, nenda Mipangilio → Ufikiaji → Huduma zilizosakinishwa na zima chochote cha kutia shaka.",
+        "🔒 Endesha skana ya Google Play Protect: Fungua Duka la Play → Menyu → Play Protect → Skana.",
+        "🔐 Badilisha nywila zote muhimu kutoka kwenye kifaa kingine safi.",
+        "🔄 Kama programu hasidi inaendelea: Rudisha Mipangilio ya Kiwanda ndiyo chaguo salama zaidi.",
+        "⬇️ Baada ya kuweka upya: Sakinisha programu tu kutoka kwenye Duka rasmi la Google Play au Apple App Store.",
+        "🔑 Usiwahi kusakinisha faili za APK kutoka vyanzo visivyojulikana."
+      ],
+      "reporting_channels": ["tzcert", "police"],
+      "emotional_note_en": "Discovering malware on your device is alarming and violating. The uncertainty of not knowing what was accessed or stolen is genuinely stressful. You are in control now — these steps will protect you.",
+      "emotional_note_sw": "Kugundua programu hasidi kwenye kifaa chako ni jambo la kutisha na la ukiukaji. Kutojua nini kilifikiliwa au kilibiwa ni msongo wa kweli. Uko na udhibiti sasa — hatua hizi zitakulinda."
+    },
+    {
+      "id": "data_breach",
+      "category": "data_breach",
+      "keywords_en": ["data leaked", "my data was breached", "personal info exposed", "ID stolen", "credentials leaked", "found on dark web", "data stolen"],
+      "keywords_sw": ["data imevuja", "taarifa zangu zimevuja", "taarifa binafsi zimefichuliwa", "kitambulisho kimeibiwa", "akaunti zimevuja"],
+      "severity": "medium",
+      "technical_steps_en": [
+        "🔍 Check if your email was in a breach: Visit haveibeenpwned.com and enter your email.",
+        "🔑 Change passwords for all accounts that used the same password as the breached service — IMMEDIATELY.",
+        "✅ Enable 2FA on all important accounts.",
+        "💳 If financial data was exposed: Contact your bank fraud line immediately and request a card freeze or replacement.",
+        "🪪 If National ID was exposed: Contact NIDA Tanzania (0800 780 004) to report potential identity fraud.",
+        "📧 Watch for phishing emails or calls pretending to be from services you use.",
+        "🔒 Consider using a password manager going forward."
+      ],
+      "technical_steps_sw": [
+        "🔍 Angalia kama barua pepe yako ilikuwa katika uvunjaji: Tembelea haveibeenpwned.com na ingiza barua pepe yako.",
+        "🔑 Badilisha nywila kwa akaunti zote zilizotumia nywila ile ile kama huduma iliyovunjwa — MARA MOJA.",
+        "✅ Washa 2FA kwenye akaunti zote muhimu.",
+        "💳 Kama data ya fedha ilifichuliwa: Wasiliana na mstari wa udanganyifu wa benki yako mara moja na omba kufungia au kubadilisha kadi.",
+        "🪪 Kama Kitambulisho cha Taifa kilifichuliwa: Wasiliana na NIDA Tanzania (0800 780 004) kuripoti udanganyifu wa utambulisho.",
+        "📧 Angalia barua pepe za udanganyifu au simu zinazojidhihirisha kuwa ni huduma unazotumia.",
+        "🔒 Fikiria kutumia kidhibiti nywila kuendelea."
+      ],
+      "reporting_channels": ["tzcert", "police"],
+      "emotional_note_en": "Learning your data was breached feels like a loss of control over your own story. It's unsettling not knowing who has your information. These steps will help you regain control one piece at a time.",
+      "emotional_note_sw": "Kujua kwamba data yako ilivunjwa kunajihisi kama kupoteza udhibiti wa hadithi yako mwenyewe. Ni jambo la kutia wasiwasi kutokujua nani ana taarifa zako. Hatua hizi zitakusaidia kupata tena udhibiti kidogo kidogo."
+    }
+  ],
+  "reporting_channels": {
+    "tzcert": {
+      "name_en": "TZ-CERT (Tanzania Computer Emergency Response Team)",
+      "name_sw": "TZ-CERT (Timu ya Kujibu Dharura ya Kompyuta ya Tanzania)",
+      "url": "https://www.tzcert.go.tz/incident/report",
+      "fields": ["Type", "Full Name", "Organization", "Telephone", "Email", "Subject", "Description"],
+      "instructions_en": "Go to https://www.tzcert.go.tz/incident/report, copy the details below into each matching field, then click Submit.",
+      "instructions_sw": "Nenda https://www.tzcert.go.tz/incident/report, nakili maelezo yaliyo hapa chini kwenye kila uwanja unaofanana, kisha bonyeza Wasilisha."
+    },
+    "police": {
+      "name_en": "Tanzania Police / Cybercrime Unit",
+      "name_sw": "Polisi wa Tanzania / Kitengo cha Uhalifu wa Mtandao",
+      "contact_en": "Nearest police station or call 112 (emergency) / +255 22 211 7507 (Cybercrime Unit Dar es Salaam)",
+      "contact_sw": "Kituo cha polisi kilicho karibu au piga simu 112 (dharura) / +255 22 211 7507 (Kitengo cha Uhalifu wa Mtandao Dar es Salaam)",
+      "instructions_en": "Use the statement template below at your nearest police station or email to the Cybercrime Unit.",
+      "instructions_sw": "Tumia kiolezo cha taarifa hapa chini katika kituo cha polisi kilicho karibu nawe au tuma barua pepe kwa Kitengo cha Uhalifu wa Mtandao."
+    },
+    "mobile_money_provider": {
+      "name_en": "Mobile Money Provider Fraud Line",
+      "name_sw": "Mstari wa Udanganyifu wa Mtoa Pesa za Simu",
+      "contacts_en": "M-Pesa/Safaricom: *234# or 0800 724 000 | Airtel Money: *100# or 0800 110 010 | Tigo Pesa: *150# or 0800 750 075",
+      "contacts_sw": "M-Pesa/Safaricom: *234# au 0800 724 000 | Airtel Money: *100# au 0800 110 010 | Tigo Pesa: *150# au 0800 750 075",
+      "instructions_en": "Call or dial the USSD code above. Report the fraud, provide the transaction ID from your SMS, and request a reversal.",
+      "instructions_sw": "Piga simu au chagua nambari ya USSD hapo juu. Ripoti udanganyifu, toa kitambulisho cha muamala kutoka SMS yako, na omba kufuta."
+    },
+    "platform_report": {
+      "name_en": "Social Media Platform Reporting",
+      "name_sw": "Kuripoti kwa Jukwaa la Mitandao ya Kijamii",
+      "links_en": "WhatsApp: Settings → Help → Contact Us | Facebook: facebook.com/hacked | Instagram: instagram.com/hacked | Google: accounts.google.com/recovery",
+      "links_sw": "WhatsApp: Mipangilio → Msaada → Wasiliana Nasi | Facebook: facebook.com/hacked | Instagram: instagram.com/hacked | Google: accounts.google.com/recovery",
+      "instructions_en": "Use the platform's official recovery/report page above to report and recover your account.",
+      "instructions_sw": "Tumia ukurasa rasmi wa kurejesha/kuripoti wa jukwaa hapo juu kuripoti na kurejesha akaunti yako."
+    }
+  }
+}
