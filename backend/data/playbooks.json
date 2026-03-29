@@ -3,64 +3,104 @@
     {
       "id": "full_device_compromise",
       "category": "full_device_compromise",
-      "keywords_en": ["phone controlled", "phone hacked", "apps opening by themselves", "remote control", "RAT", "someone controlling my screen", "battery draining fast", "screen moving", "attacker has control"],
-      "keywords_sw": ["simu inaongea peke yake", "simu imedhibitiwa", "programu zinafunguka zenyewe", "mtu anadhibiti simu yangu", "simu imehackiwa kabisa", "betri inaisha haraka"],
+      "keywords_en": ["phone controlled", "phone hacked", "apps opening by themselves", "remote control", "RAT", "someone controlling my screen", "battery draining fast"],
+      "keywords_sw": ["simu inaongea peke yake", "simu imedhibitiwa", "programu zinafunguka zenyewe", "mtu anadhibiti simu yangu"],
       "severity": "critical",
       "technical_steps_en": [
-        "🚨 IMMEDIATELY turn on Airplane Mode (swipe down → tap Airplane Mode) — this cuts the attacker's connection NOW.",
-        "🔴 Power off your phone completely using the physical power button.",
-        "⚠️ Do NOT use this phone for passwords, banking, or sensitive messages until it is cleaned.",
-        "📱 Borrow a friend's or family member's phone or use a computer to continue.",
-        "🔐 From the safe device: Change your Google/Apple ID password FIRST, then email, then WhatsApp.",
-        "🔑 Enable 2-Factor Authentication (2FA) on all accounts from the safe device.",
-        "📞 Call your mobile carrier (Airtel: 0800 110 011 | Vodacom: 100 | Tigo: 0800 750 075) to check for SIM-swap.",
-        "🛡️ When you get back to the phone: Boot into Safe Mode (hold Power → long-press 'Power off' → tap Safe Mode).",
-        "🗑️ In Safe Mode: Go to Settings → Apps → uninstall any app you don't recognize.",
-        "🔄 Last resort: Factory Reset (Settings → General Management → Reset → Factory Data Reset). This erases everything — back up contacts/photos first if safe."
+        "🚨 IMMEDIATELY turn on Airplane Mode — this cuts the attacker's connection right now.",
+        "🔴 Power off the phone completely.",
+        "⚠️ Do NOT use this phone for any passwords or banking until cleaned.",
+        "📱 Switch to a borrowed safe device to continue this conversation.",
+        "🔐 From the safe device: Change your Google/Apple ID password first.",
+        "🔑 Enable 2FA on all accounts.",
+        "📞 Contact your mobile carrier to check for SIM-swap (Airtel: 0800 110 011, Vodacom: 100, Tigo: 0800 750 075).",
+        "🛡️ Boot into Safe Mode and uninstall suspicious apps when safe.",
+        "🔄 Last resort: Factory reset (back up important data first if possible)."
       ],
       "technical_steps_sw": [
-        "🚨 MARA MOJA washa Hali ya Ndege (Airplane Mode) — hii itakata muunganisho wa mshambuliaji SASA HIVI.",
-        "🔴 Zima simu yako kabisa ukitumia kitufe cha nguvu.",
-        "⚠️ USITUMIE simu hii kwa nywila, benki, au ujumbe muhimu mpaka itakapokuwa salama.",
-        "📱 Omba simu ya rafiki au mwanafamilia au tumia kompyuta kuendelea.",
-        "🔐 Kutoka kwenye kifaa salama: Badilisha nywila ya Google/Apple ID KWANZA, kisha barua pepe, kisha WhatsApp.",
-        "🔑 Washa Uthibitishaji wa Hatua 2 (2FA) kwenye akaunti zote kutoka kwenye kifaa salama.",
-        "📞 Piga simu mtoa huduma wako (Airtel: 0800 110 011 | Vodacom: 100 | Tigo: 0800 750 075) kuhusu SIM-swap.",
-        "🛡️ Ukirejesha simu: Ingia katika Hali Salama (shikilia Nguvu → shikilia 'Zima nguvu' → gusa Hali Salama).",
-        "🗑️ Katika Hali Salama: Nenda Mipangilio → Programu → Ondoa programu yoyote usiyoijua.",
-        "🔄 Suluhisho la mwisho: Rudisha Mipangilio ya Kiwanda (Mipangilio → Usimamizi Mkuu → Rudisha). Hii itafuta kila kitu — hifadhi mawasiliano/picha kwanza kama ni salama."
+        "🚨 MARA MOJA washa Airplane Mode ili kukata muunganisho wa mshambuliaji.",
+        "🔴 Zima simu yako kabisa.",
+        "⚠️ Usitumie simu hii kwa nywila au benki mpaka iwe salama.",
+        "📱 Badilisha kwenye simu ya rafiki au kompyuta kuendelea.",
+        "🔐 Badilisha nywila ya Google/Apple ID kwanza kutoka kifaa salama.",
+        "🔑 Washa 2FA kwenye akaunti zote.",
+        "📞 Piga simu mtoa huduma wako kuhusu SIM-swap.",
+        "🛡️ Ingia Safe Mode na ondoa programu za kutia shaka.",
+        "🔄 Suluhisho la mwisho: Rudisha simu kiwandani."
       ],
       "reporting_channels": ["tzcert", "police"],
-      "emotional_note_en": "Having your device taken over feels like a deep violation of your privacy and safety. What you're feeling — fear, anger, helplessness — is completely valid. You are taking strong action right now.",
-      "emotional_note_sw": "Kuwa na kifaa chako kilichodhibitiwa kunajihisi kama ukiukaji mkubwa wa faragha na usalama wako. Unachohisi — hofu, hasira, kutokuwa na nguvu — ni halali kabisa. Unachukua hatua madhubuti sasa hivi."
+      "emotional_note_en": "Having your device taken over feels like a serious violation. Your fear is valid. You are regaining control now.",
+      "emotional_note_sw": "Kudhibitiwa kwa simu yako ni ukiukaji mkubwa. Hofu yako ni halali. Unachukua udhibiti sasa."
     },
     {
-      "id": "mobile_money_scam",
+      "id": "airtel_money_scam",
       "category": "mobile_money_scam",
-      "keywords_en": ["M-Pesa scam", "Airtel Money fraud", "Tigo Pesa fraud", "voice call scam", "family emergency scam", "sent money by mistake", "lost money mobile", "fake agent"],
-      "keywords_sw": ["M-Pesa nimeibwa", "Airtel Money nimehadaiwa", "simu ya dharura bandia", "nimetumia pesa kwa bahati mbaya", "nimepoteza pesa simu", "wakala wa uongo"],
+      "keywords_en": ["Airtel Money scam", "Airtel fraud", "Airtel money hacked"],
+      "keywords_sw": ["Airtel Money nimehadaiwa", "Airtel nimeibwa", "Airtel money udanganyifu"],
       "severity": "high",
       "technical_steps_en": [
-        "📞 Call M-Pesa immediately: *234# or 0800 724 000 (Safaricom) | Airtel: *100# or 0800 110 010 | Tigo: *150# — report the fraud and request a transaction reversal.",
-        "📋 Note down: The fraudster's phone number, exact amount, transaction ID (from SMS), and time of transaction.",
-        "🚫 Block the fraudster's number immediately from your phone.",
-        "📸 Screenshot all transaction SMS messages as evidence.",
-        "🔐 Change your mobile money PIN immediately from a safe state.",
-        "🏦 If money went to a bank account, contact the receiving bank's fraud line immediately.",
-        "📝 Save the customer care reference number you receive when reporting."
+        "📞 Call Airtel Money customer care immediately: *100# or 0800 110 010",
+        "Report the fraud and request transaction reversal with the transaction ID.",
+        "Block the fraudster's number right away.",
+        "Change your Airtel Money PIN from a safe device.",
+        "Monitor your Airtel Money account for any further suspicious activity.",
+        "Save all SMS and call logs as evidence."
       ],
       "technical_steps_sw": [
-        "📞 Piga simu M-Pesa mara moja: *234# au 0800 724 000 (Safaricom) | Airtel: *100# au 0800 110 010 | Tigo: *150# — ripoti udanganyifu na omba kufuta muamala.",
-        "📋 Andika: Nambari ya simu ya mwizi, kiasi halisi, Kitambulisho cha muamala (kutoka SMS), na wakati wa muamala.",
-        "🚫 Zuia nambari ya mwizi mara moja kutoka kwenye simu yako.",
-        "📸 Piga picha za SMS zote za muamala kama ushahidi.",
-        "🔐 Badilisha PIN yako ya pesa za simu mara moja kutoka hali salama.",
-        "🏦 Kama pesa ilienda kwenye akaunti ya benki, wasiliana na mstari wa udanganyifu wa benki hiyo mara moja.",
-        "📝 Hifadhi nambari ya kumbukumbu ya huduma kwa wateja unaopokea unapowasiliana."
+        "📞 Piga Airtel Money mara moja: *100# au 0800 110 010",
+        "Ripoti udanganyifu na omba kufuta muamala ukitumia transaction ID.",
+        "Zuia nambari ya mwizi mara moja.",
+        "Badilisha PIN yako ya Airtel Money kutoka kifaa salama.",
+        "Fuatilia akaunti yako ya Airtel Money kwa shughuli za kutia shaka.",
+        "Hifadhi SMS na rekodi za simu kama ushahidi."
       ],
       "reporting_channels": ["mobile_money_provider", "police", "tzcert"],
-      "emotional_note_en": "Being scammed through mobile money is a violation that can feel deeply shameful — but you are not at fault. Scammers are sophisticated and target many people. You acted quickly and that matters.",
-      "emotional_note_sw": "Kudanganywa kupitia pesa za simu kunaweza kujihisi kama aibu — lakini si kosa lako. Walaghai wana ujanja na wanashambulia watu wengi. Ulichukua hatua haraka na hiyo ina maana."
+      "emotional_note_en": "Airtel Money scams are very common. You are not alone and you acted quickly.",
+      "emotional_note_sw": "Udanganyifu wa Airtel Money ni wa kawaida sana. Wewe si peke yako na ulichukua hatua haraka."
+    },
+    {
+      "id": "mpesa_scam",
+      "category": "mobile_money_scam",
+      "keywords_en": ["M-Pesa scam", "M-Pesa fraud", "M-Pesa voice call", "Safaricom scam"],
+      "keywords_sw": ["M-Pesa nimeibwa", "M-Pesa udanganyifu", "simu ya M-Pesa"],
+      "severity": "high",
+      "technical_steps_en": [
+        "📞 Dial *234# or call Safaricom 0800 724 000 immediately to report the fraud.",
+        "Provide the transaction ID, amount, and fraudster's number.",
+        "Request transaction reversal.",
+        "Block the number and change your M-Pesa PIN.",
+        "Save all evidence (SMS and call logs)."
+      ],
+      "technical_steps_sw": [
+        "📞 Chagua *234# au piga 0800 724 000 mara moja kuripoti.",
+        "Toa transaction ID, kiasi, na nambari ya mwizi.",
+        "Omba kufuta muamala.",
+        "Zuia nambari na badilisha PIN ya M-Pesa.",
+        "Hifadhi ushahidi wote."
+      ],
+      "reporting_channels": ["mobile_money_provider", "police", "tzcert"],
+      "emotional_note_en": "M-Pesa scams are very common in Tanzania. Many people have recovered their money by acting fast.",
+      "emotional_note_sw": "Udanganyifu wa M-Pesa ni wa kawaida sana Tanzania. Watu wengi wamefanikiwa kurejesha pesa zao kwa kuchukua hatua haraka."
+    },
+    {
+      "id": "tigo_pesa_scam",
+      "category": "mobile_money_scam",
+      "keywords_en": ["Tigo Pesa scam", "Tigo fraud"],
+      "keywords_sw": ["Tigo Pesa nimehadaiwa", "Tigo udanganyifu"],
+      "severity": "high",
+      "technical_steps_en": [
+        "📞 Dial *150# or call Tigo 0800 750 075 to report the fraud.",
+        "Provide transaction details and request reversal.",
+        "Block the fraudster and change your Tigo Pesa PIN."
+      ],
+      "technical_steps_sw": [
+        "📞 Chagua *150# au piga 0800 750 075 kuripoti.",
+        "Toa maelezo ya muamala na omba kufuta.",
+        "Zuia mwizi na badilisha PIN ya Tigo Pesa."
+      ],
+      "reporting_channels": ["mobile_money_provider", "police", "tzcert"],
+      "emotional_note_en": "Tigo Pesa scams are increasing. Acting fast improves your chances of recovery.",
+      "emotional_note_sw": "Udanganyifu wa Tigo Pesa unaongezeka. Kuchukua hatua haraka huongeza nafasi ya kurejesha pesa."
     },
     {
       "id": "account_takeover",
