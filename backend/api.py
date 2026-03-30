@@ -235,4 +235,4 @@ async def get_session(session_id: str):
 if __name__ == "__main__":
     import uvicorn
     # Make sure to run with your GROQ_API_KEY environment variable set
-    uvicorn.run("api:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("api:app", host="0.0.0.0", port=8000, reload=False)
