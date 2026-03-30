@@ -1,13 +1,13 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Header
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional, Dict, Any
 import os
 import sys
 import re
-from uuid import uuid4
 
 # Import LangChain message types
-from langchain_core.messages import HumanMessage, AIMessage, ToolMessage
+from langchain_core.messages import HumanMessage, AIMessage
 
 # Add project root to path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -19,6 +19,15 @@ app = FastAPI(
     title="CyberFirstAid AI API",
     description="API for Mobile App to interact with the CyberFirstAid AI ReAct Agent.",
     version="1.0.0"
+)
+
+# Enable CORS for mobile app
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # ── MODELS ──────────────────────────────────────────
@@ -100,13 +109,22 @@ def init_agent_state(lang: str) -> dict:
 # ── ENDPOINTS ───────────────────────────────────────
 
 @app.post("/chat", response_model=ChatResponse)
-async def chat_endpoint(request: ChatRequest):
+async def chat_endpoint(
+    request: ChatRequest,
+    x_groq_api_key: Optional[str] = Header(None, alias="X-Groq-API-Key")
+):
     """
     Main endpoint for the mobile app to communicate with the Agent.
     Requires a session_id to maintain dialogue history.
+    API key can be passed via X-Groq-API-Key header or set as environment variable.
     """
-    if not os.environ.get("GROQ_API_KEY"):
-        raise HTTPException(status_code=500, detail="Server misconfiguration: Groq API Key is not set on the backend.")
+    # Use header API key if provided, otherwise fall back to environment variable
+    api_key = x_groq_api_key or os.environ.get("GROQ_API_KEY")
+    if not api_key:
+        raise HTTPException(status_code=500, detail="Groq API Key is required. Set X-Groq-API-Key header or GROQ_API_KEY environment variable.")
+    
+    # Set the API key for this request
+    os.environ["GROQ_API_KEY"] = api_key
 
     session_id = request.session_id
     
